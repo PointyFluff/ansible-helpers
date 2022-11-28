@@ -1,0 +1,51 @@
+#!/bin/bash
+
+export RESET="\e[0m"
+export END="${RESET}\n"
+export DEFAULT_FG="\e[39m"
+export BLACK="\e[30m"
+export RED="\e[31m"
+export GREEN="\e[32m"
+export YELLOW="\e[33m"
+export BLUE="\e[34m"
+export MAGENTA="\e[35m"
+export CYAN="\e[36m"
+export LT_GREY="\e[37m"
+export DK_GREY="\e[90m"
+export LT_RED="\e[91m"
+export LT_GREEN="\e[92m"
+export LT_YELLOW="\e[93m"
+export LT_BLUE="\e[94m"
+export LT_MAGENTA="\e[95m"
+export LT_CYAN="\e[96m"
+export WHITE="\e[97m"
+
+export BOLD="\e[1m"
+export DIM="\e[2m"
+export UNDERLINE="\e[4m"
+export BLINK="\e[5m"
+export REVERSE="\e[7m"
+export HIDDEN="\e[8m"
+
+export DEFAULT_BG="\e[49m"
+export BLACK_BG="\e[40m"
+
+end=$RESET
+eol="$RESET\n"
+default=$DEFAULT_FG
+black=$BLACK
+red=$RED
+green=$GREEN
+yellow=$YELLOW
+blue=$BLUE
+magenta=$MAGENTA
+cyan=$CYAN
+
+ltRed=$LT_RED
+ltGreen=$LT_GREEN
+ltYellow=$LT_YELLOW
+ltBlue=$LT_BLUE
+ltMagenta=$LT_MAGENTA
+ltCyan=$LT_CYAN
+
+ul=$UNDERLINE
